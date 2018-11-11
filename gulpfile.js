@@ -58,7 +58,7 @@ const paths = {
 
     // Part for browser-sync plugin
     sync: {
-        watch: `${config.path.dist}/**.*`,
+        watch: `${config.path.dist}/**/*.*`,
     }
 };
 

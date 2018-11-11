@@ -1,0 +1,93 @@
+@import './interface'
+
+.testimonials_section
+ background: url("../../img/section_background.png")
+ background-color: $first_bg_color
+ background-size: cover
+ height: 100vh
+
+.testimonials_section_header
+ padding-top: 30px
+ text-align: center
+
+.testimonials_section_title
+ font-family: $fm
+ font-weight: 700
+ text-transform: uppercase
+ letter-spacing: 1.4px
+ font-size: 15px
+ color: $light_blue
+
+.testimonials_section_under_title
+ font-family: $fm
+ font-size: 2rem
+ font-weight: 600
+ color: #ffffff
+ line-height: 10px
+
+.testimonials_main_section
+ width: 85%
+ margin: 0 auto
+ display: flex
+ justify-content: space-between
+
+.testimonials_main_section_info
+ padding-top: 35px
+ font-family: $fm
+ font-style: italic
+ color: #ffffff
+ font-size: 1.5rem
+ line-height: 2rem
+
+.testimonials_new_section
+ display: flex
+ padding-top: 20px
+
+.ava_title
+ font-family: $fm
+ font-size: 1rem
+
+.ava_under_title
+ font-family: $fm 
+ font-size: 1rem
+ font-weight: 700
+
+.testimonials_section_ava_info
+ padding-left: 20px
+ font-style: normal
+
+.testimonials_mini_section
+ background-color: $first_bg_color
+.testimonials_mini_section_info
+ & .mini_section_info_style,
+ & .mini_section_info_style_paragraph
+    font-family: $fm
+    font-size: 2rem
+    color: #ffffff
+ position: relative
+ display: flex
+ justify-content: space-between
+ align-items: center
+ min-height: 150px
+ width: 85%
+ margin: 0 auto
+
+.mini_section_info_style_paragraph
+ font-weight: 300
+
+
+.mini_section_buttons
+ display: flex
+ & .download_button,
+ & .features_button
+    width: 130px
+    height: 40px
+    margin-right: 10px
+    background: transparent
+    cursor: pointer
+    border: 1px solid rgba(255, 255, 255, 0.2)
+ & .download_button:hover,
+ & .features_button:hover
+    background-color: $light_blue
+
+
